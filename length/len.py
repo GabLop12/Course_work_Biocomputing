@@ -10,5 +10,3 @@ def image_counter (c):
     #Return lenght of images
     return len(images)
 
-
-
