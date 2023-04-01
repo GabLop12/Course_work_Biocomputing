@@ -29,7 +29,7 @@ def clustering(a='all_images.npz'):
     encoded_imgs = encoder.predict(X)
 
     # Cluster the images using KMeans
-    kmeans = KMeans(n_clusters=10, random_state=42)
+    kmeans = KMeans(n_clusters=8, random_state=42)
     kmeans.fit(encoded_imgs)
 
     # Visualize the clusters
@@ -41,3 +41,4 @@ def clustering(a='all_images.npz'):
         ax.scatter(encoded_imgs[i, 0], encoded_imgs[i, 1], c=colors[kmeans.labels_[i]])
     return plt.show()
 
+clustering()
