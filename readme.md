@@ -15,3 +15,4 @@ b) A decision per image
 c) Image clusterings
 
 d) Clustering visualisation
+[![cluster.png](Pictures%2Fcluster.png)]
